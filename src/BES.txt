@@ -1,0 +1,6 @@
+import OPO;
+int main(){
+	int wtf = 0;
+	int haha   =1 + 1;
+	x++;
+}
