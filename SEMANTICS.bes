@@ -1,0 +1,14 @@
+write("Enter a number : ");
+int number;
+number = read();
+if(number > 10){
+	writeln("Your number, " . number . ", is greater than 10.");
+} else if(number < 10){
+	writeln("Your number, " . number . ", is less than 10.");
+} else if(number == 10){
+	writeln("Your number, " . number . ", is equal to 10.");
+} else {
+	writeln("what a number!");
+}
+number = 12;
+writeln(number);

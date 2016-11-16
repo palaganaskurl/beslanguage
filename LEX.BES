@@ -1,0 +1,10 @@
+1.2
+int print;
+char asdchar;
+int ascase;
+int asd@_as;
+string x = "a";
+boolean hehe = false;
+int x = x ^ 2;
+int x = x + 2;
+@$

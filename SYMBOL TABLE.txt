@@ -1,0 +1,84 @@
+write|		WRITE_FN		| Line Number : 1
+(|		OPEN_PAREN|		| Line Number : 1
+Enter a number : |		STR_LIT		| Line Number : 1
+)|		CLOSE_PAREN|		| Line Number : 1
+;|		SEMICOLON|		| Line Number : 1
+int|		INT_KW		| Line Number : 2
+number|		VALID_IDEN		| Line Number : 2
+;|		SEMICOLON|		| Line Number : 2
+number|		VALID_IDEN		| Line Number : 3
+=|		ASS_OPER		| Line Number : 3
+read|		READ_FN		| Line Number : 3
+(|		OPEN_PAREN|		| Line Number : 3
+)|		CLOSE_PAREN|		| Line Number : 3
+;|		SEMICOLON|		| Line Number : 3
+if|		IF_KW		| Line Number : 4
+(|		OPEN_PAREN|		| Line Number : 4
+number|		VALID_IDEN		| Line Number : 4
+>|		REL_OPER		| Line Number : 4
+10|		NUMBER_LIT		| Line Number : 4
+)|		CLOSE_PAREN|		| Line Number : 4
+{|		OPEN_BRACE|		| Line Number : 4
+writeln|		WRITELN_FN		| Line Number : 5
+(|		OPEN_PAREN|		| Line Number : 5
+Your number, |		STR_LIT		| Line Number : 5
+.|		CONCAT_OPER		| Line Number : 5
+number|		VALID_IDEN		| Line Number : 5
+.|		CONCAT_OPER		| Line Number : 5
+, is greater than 10.|		STR_LIT		| Line Number : 5
+)|		CLOSE_PAREN|		| Line Number : 5
+;|		SEMICOLON|		| Line Number : 5
+}|		CLOSE_BRACE|		| Line Number : 6
+else|		ELSE_KW		| Line Number : 6
+if|		IF_KW		| Line Number : 6
+(|		OPEN_PAREN|		| Line Number : 6
+number|		VALID_IDEN		| Line Number : 6
+<|		REL_OPER		| Line Number : 6
+10|		NUMBER_LIT		| Line Number : 6
+)|		CLOSE_PAREN|		| Line Number : 6
+{|		OPEN_BRACE|		| Line Number : 6
+writeln|		WRITELN_FN		| Line Number : 7
+(|		OPEN_PAREN|		| Line Number : 7
+Your number, |		STR_LIT		| Line Number : 7
+.|		CONCAT_OPER		| Line Number : 7
+number|		VALID_IDEN		| Line Number : 7
+.|		CONCAT_OPER		| Line Number : 7
+, is less than 10.|		STR_LIT		| Line Number : 7
+)|		CLOSE_PAREN|		| Line Number : 7
+;|		SEMICOLON|		| Line Number : 7
+}|		CLOSE_BRACE|		| Line Number : 8
+else|		ELSE_KW		| Line Number : 8
+if|		IF_KW		| Line Number : 8
+(|		OPEN_PAREN|		| Line Number : 8
+number|		VALID_IDEN		| Line Number : 8
+==|		REL_OPER|		| Line Number : 8
+10|		NUMBER_LIT		| Line Number : 8
+)|		CLOSE_PAREN|		| Line Number : 8
+{|		OPEN_BRACE|		| Line Number : 8
+writeln|		WRITELN_FN		| Line Number : 9
+(|		OPEN_PAREN|		| Line Number : 9
+Your number, |		STR_LIT		| Line Number : 9
+.|		CONCAT_OPER		| Line Number : 9
+number|		VALID_IDEN		| Line Number : 9
+.|		CONCAT_OPER		| Line Number : 9
+, is equal to 10.|		STR_LIT		| Line Number : 9
+)|		CLOSE_PAREN|		| Line Number : 9
+;|		SEMICOLON|		| Line Number : 9
+}|		CLOSE_BRACE|		| Line Number : 10
+else|		ELSE_KW		| Line Number : 10
+{|		OPEN_BRACE|		| Line Number : 10
+writeln|		WRITELN_FN		| Line Number : 11
+(|		OPEN_PAREN|		| Line Number : 11
+what a number!|		STR_LIT		| Line Number : 11
+)|		CLOSE_PAREN|		| Line Number : 11
+;|		SEMICOLON|		| Line Number : 11
+}|		CLOSE_BRACE|		| Line Number : 12
+number|		VALID_IDEN		| Line Number : 13
+=|		ASS_OPER		| Line Number : 13
+12|		NUMBER_LIT		| Line Number : 13
+;|		SEMICOLON|		| Line Number : 13
+writeln|		WRITELN_FN		| Line Number : 14
+(|		OPEN_PAREN|		| Line Number : 14
+number|		VALID_IDEN		| Line Number : 14
+)|		CLOSE_PAREN|		| Line Number : 14
+;|		SEMICOLON|		| Line Number : 14

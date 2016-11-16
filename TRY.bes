@@ -1,0 +1,7 @@
+int xy = 0;
+int wtf = 5;
+int cx = 0;
+cx = xy;
+for(xy = 0; xy < wtf; xy++){
+	writeln("l");
+}

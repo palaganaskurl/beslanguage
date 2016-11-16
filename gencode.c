@@ -1,0 +1,3 @@
+#include <stdio.h>
+#include <conio.h>
+int main(){printf("Enter a number : "); int number; scanf("%d", &number); if ( number> 10 ) { printf("Your number, %d, is greater than 10.\n",number); } else if ( number< 10 ) { printf("Your number, %d, is less than 10.\n",number); } else if ( number== 10 ) { printf("Your number, %d, is equal to 10.\n",number); } else { printf("what a number!\n"); } number= 12 ; printf("%d\n",number); getch(); }
