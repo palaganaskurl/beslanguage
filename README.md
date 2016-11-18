@@ -13,3 +13,6 @@ Just a compiler design project. This language is based from C Language and uses 
 Feel free to to report issues.
 
 :D
+
+## Screenshot
+![alt tag](https://github.com/kurlp00/beslanguage/blob/master/ss.png)
